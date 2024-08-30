@@ -1,0 +1,28 @@
+body{
+    background-color: #19172e;
+}
+
+
+#form{
+   background-color: aliceblue;
+   width: 25%;
+   margin: 120px auto;
+   padding: 50px;
+   box-shadow: 10px 10px 5px rgba(41, 56, 87, 0.925);
+   border-radius: 5px;
+}
+
+#btn{
+    color: #fff;
+    background-color: #19172e;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin-left: 110px;
+}
+
+h1{
+    text-align: center;
+    color: #19172e;
+    font-size: 2rem;
+}
