@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #19172e;
+    padding: 0 10px;
+}
+
+.container{
+    margin: 20px auto;
+    max-width: 500px;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 30px;
+    box-shadow: 10px 10px 2px rgba(0, 0, 0, .125);
+}
+
+.container .title{
+    font-size: 1em;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #19172e;
+    text-transform: uppercase;
+}
+
+.container .form{
+    width: 100%;
+}
+
+.container .form .input-field{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.container .form .input-field label{
+    width: 200px;;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.container .form .input-field .input,
+.container .form .input-field .textarea
+
+{
+    width: 100%;
+    outline: none;
+    border: 1px solid #19172e;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+
+.container .form .input-field .textarea{
+    resize: none;
+    height: 60px;
+}
+.container .form .input-field .selectbox{
+position: relative;
+width: 100%;
+outline: none;
+border-radius: 3px;
+}
+
+.container .form .input-field p{
+    font-size: 14px;
+}
+
+.container .form .input-field .check{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+
+.container .form .input-field  .adddata{
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 0;
+    background-color: #19172e;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
+
+.container .form .input-field  .adddata:hover{
+    background-color: #635da3;
+}
